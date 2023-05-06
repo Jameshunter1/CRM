@@ -14,7 +14,7 @@ pip install django
 2. Clone the repository to your local machine using:
 
 ```
-git clone https://github.com/your-username/django-crm.git
+git clone https://github.com/jameshunter1/CRM.git
 ```
 
 3. Navigate to the project directory using the command line.
@@ -25,10 +25,14 @@ cd django-crm
 
 4. Create a virtual environment and activate it using:
 
-```
-python -m venv env
-source env/bin/activate (for Mac/Linux) or env\Scripts\activate (for Windows)
-```
+
+`python -m venv env source env/bin/activate `
+(for Mac/Linux) 
+
+or 
+
+`python -m venv env source env\Scripts\activate`
+(for Windows)`
 
 5. Install the required dependencies using:
 
@@ -40,6 +44,7 @@ pip install -r requirements.txt
 
 ```
 python manage.py makemigrations
+
 python manage.py migrate
 ```
 
