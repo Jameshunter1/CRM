@@ -26,10 +26,10 @@
 <strong>City: </strong>{{ customer_record.city }}</p>
 
 <p class="card-text">
-<strong>State: </strong>{{ customer_record.state }}</p>
+<strong>Province: </strong>{{ customer_record.province }}</p>
 
 <p class="card-text">
-<strong>Zipcode: </strong>{{ customer_record.zipcode }}</p>
+<strong>Postal Code: </strong>{{ customer_record.postalcode }}</p>
 
 <p class="card-text">
 <strong>Create At: </strong>{{ customer_record.created_at }}</p>
@@ -45,6 +45,8 @@
 <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
 
 <a href="{% url 'delete_record' customer_record.id %}" class="btn btn-danger">Delete</a>
+
+<a href="{% url 'update_record' customer_record.id %}" class="btn btn-light">Update </a>
 
 
 		
